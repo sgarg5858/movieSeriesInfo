@@ -1,4 +1,4 @@
-import {SEARCH_MOVIE} from '../actions/types'
+import {SEARCH_MOVIE, FETCH_MOVIES_ERROR, FETCH_MOVIES} from '../actions/types'
 
 const initialState={
     //search text
@@ -8,7 +8,8 @@ const initialState={
     //Loading State
     isLoading:false,
     // Selected Movie
-    movie:[]
+    movie:[],
+    error:null
 };
 
 export default function(state=initialState,action)
@@ -20,6 +21,20 @@ export default function(state=initialState,action)
             return{
                 ...state,
                 text:payload,
+                isLoading:false,
+                error:null
+            }
+        case FETCH_MOVIES:
+            return{
+                ...state,
+                movies:payload,
+                isLoading:false,
+                error:null
+            }
+        case FETCH_MOVIES_ERROR:
+            return{
+                ...state,
+                error:'Server Error',
                 isLoading:false
             }
         default:

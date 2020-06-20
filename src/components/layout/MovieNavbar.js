@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 const MovieNavbar = () => {
     return (
-        <Navbar  variant="dark" style={{backgroundColor:'#1544c0'}}>
+        <Navbar  variant="dark" bg="dark">
             <Navbar.Brand ><span style={{color:'#79ffb7',fontSize:'30px'}}>MovieSeriesInfo</span></Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
