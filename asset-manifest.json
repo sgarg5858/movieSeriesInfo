@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movieSeriesInfo1/static/css/main.24e4f245.chunk.css",
+    "main.js": "/movieSeriesInfo1/static/js/main.30711898.chunk.js",
+    "main.js.map": "/movieSeriesInfo1/static/js/main.30711898.chunk.js.map",
+    "runtime-main.js": "/movieSeriesInfo1/static/js/runtime-main.d00cde88.js",
+    "runtime-main.js.map": "/movieSeriesInfo1/static/js/runtime-main.d00cde88.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/movieSeriesInfo1/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.75576eb0.chunk.js": "/movieSeriesInfo1/static/js/2.75576eb0.chunk.js",
+    "static/js/2.75576eb0.chunk.js.map": "/movieSeriesInfo1/static/js/2.75576eb0.chunk.js.map",
+    "index.html": "/movieSeriesInfo1/index.html",
+    "precache-manifest.0e848fcb94c5e66aecc3b3efb2a16c88.js": "/movieSeriesInfo1/precache-manifest.0e848fcb94c5e66aecc3b3efb2a16c88.js",
+    "service-worker.js": "/movieSeriesInfo1/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/movieSeriesInfo1/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.24e4f245.chunk.css.map": "/movieSeriesInfo1/static/css/main.24e4f245.chunk.css.map",
+    "static/js/2.75576eb0.chunk.js.LICENSE.txt": "/movieSeriesInfo1/static/js/2.75576eb0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d00cde88.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.75576eb0.chunk.js",
+    "static/css/main.24e4f245.chunk.css",
+    "static/js/main.30711898.chunk.js"
+  ]
+}
