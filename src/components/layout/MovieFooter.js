@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Typist from 'react-typist'
 const MovieFooter = () => {
     return (
-        <Navbar  variant="dark"  bg="dark">
+        <Navbar sticky="bottom"  variant="dark" style={{marginTop:'55vh'}} bg="dark">
                <Col lg={{span:6,offset:3}} md={{span:8,offset:2}} sm={{span:10,offset:1}} xs={{span:12,offset:0}} >
                <Typist>
                <span style={{color:'white',fontSize:'25px'}}>Developed by  </span>
