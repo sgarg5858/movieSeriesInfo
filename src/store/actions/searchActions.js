@@ -14,7 +14,7 @@ export const fetchMovies = (text) => async dispatch => {
     try {
         dispatch({type:START_LOADING})
 
-        const res= await axios.get(`http://www.omdbapi.com/?apikey=${APIkey}&s=${text}`);
+        const res= await axios.get(`https://www.omdbapi.com/?apikey=${APIkey}&s=${text}`);
         
         console.log(res);
         dispatch({type:STOP_LOADING})
@@ -47,7 +47,7 @@ export const fetchMovie = (imdbID) => async dispatch =>{
         
         dispatch({type:START_LOADING})
         
-        const res = await axios.get(`http://www.omdbapi.com/?apikey=${APIkey}&i=${imdbID}`);
+        const res = await axios.get(`https://www.omdbapi.com/?apikey=${APIkey}&i=${imdbID}`);
         
         dispatch({type:STOP_LOADING})
 
